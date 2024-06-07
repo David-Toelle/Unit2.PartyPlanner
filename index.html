@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Party Planner</h1>
+    <h2>Add Party</h2>
+    <form>
+      <div class="form-group">
+        <label for="partyName">Party Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="partyName"
+          placeholder="Enter party name"
+        />
+      </div>
+      <div class="form-group">
+        <label for="partyDate">Date</label>
+        <input type="date" class="form-control" id="partyDate" />
+      </div>
+      <div class="form-group">
+        <label for="partyTime">Time</label>
+        <input type="time" class="form-control" id="partyTime" />
+      </div>
+      <div class="form-group">
+        <label for="partyLocation">Location</label>
+        <input
+          type="text"
+          class="form-control"
+          id="partyLocation"
+          placeholder="Enter location"
+        />
+      </div>
+      <div class="form-group">
+        <label for="partyDescription">Description</label>
+        <textarea
+          class="form-control"
+          id="partyDescription"
+          rows="3"
+          placeholder="Enter description"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Party</button>
+    </form>
+    <h2>Upcoming Parties</h2>
+    <div id="data-list"></div>
+  </body>
+  <script src="index.js"></script>
+</html>

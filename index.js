@@ -97,6 +97,13 @@ const addParty = async (event) => {
     const addedParty = await response.json();
     console.log("Party Added:", addedParty);
 
+
+    document.getElementById("partyName").value = "";
+    document.getElementById("partyDate").value = "";
+    document.getElementById("partyTime").value = "";
+    document.getElementById("partyLocation").value = "";
+    document.getElementById("partyDescription").value = "";
+
     // Re-render the party list to include the newly added party
     render();
   } catch (error) {

@@ -1,1 +1,85 @@
 
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #8C7853; /* Bronze color */
+}
+
+form {
+  background-color: white;
+  border: 1px solid #8C7853; /* Bronze border */
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #8C7853; /* Bronze color */
+}
+
+input.form-control, textarea.form-control {
+  border: 1px solid #8C7853; /* Bronze border */
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input.form-control::placeholder, textarea.form-control::placeholder {
+  color: #8C7853; /* Bronze placeholder color */
+}
+
+button.btn-primary {
+  background-color: #8C7853; /* Bronze background */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.btn-primary:hover {
+  background-color: #725e40; /* Darker bronze on hover */
+}
+
+ul#party-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  background-color: white;
+  border: 1px solid #8C7853; /* Bronze border */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item h5, .list-group-item p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
+}
